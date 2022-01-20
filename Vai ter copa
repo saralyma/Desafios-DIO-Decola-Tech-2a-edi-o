@@ -1,0 +1,14 @@
+using System;
+
+class DIO
+{
+    static void Main()
+    {
+        string str;
+        while ((str = Console.ReadLine()) != null)
+        {
+            int x = int.Parse(str);
+            Console.WriteLine(x == 0 ? "vai ter copa!" : "vai ter duas!");
+        }
+    }
+}
